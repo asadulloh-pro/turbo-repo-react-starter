@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky install",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "admin": "^1.4.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.37.2",
+    "husky": "^9.1.6",
+    "only-allow": "^1.2.1",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.14",
+    "turbo": "^2.2.3"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "name": "with-vite",
+  "dependencies": {
+    "@commitlint/config-conventional": "^19.5.0",
+    "antd": "^5.22.1",
+    "commitlint": "^19.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite-tsconfig-paths": "^5.1.2"
+  }
+}
